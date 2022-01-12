@@ -11,7 +11,7 @@
             "driver": "MySQL",
             "name": "mysql1",
             "username": "root",
-            "database": "default"
+            "database": "toothsi_training"
         }
     ]
 }
