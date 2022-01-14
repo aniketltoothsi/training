@@ -1,0 +1,177 @@
+[{
+  "_id": {
+    "$oid": "61dffa2640f5a3a28cb90e27"
+  },
+  "userId": "61dff03c83c2aa89cf5398c3",
+  "orderStatus": "Completed",
+  "amount": 6750,
+  "discount": 0,
+  "shippingAddress": {
+    "street": "ganraj colony",
+    "city": "pune",
+    "country": "india",
+    "postCode": "411033"
+  },
+  "cartItems": [
+    {
+      "productId": "61dff56440f5a3a28cb90e1c",
+      "quantity": 1
+    },
+    {
+      "productId": "61dff5c040f5a3a28cb90e1d",
+      "quantity": 1
+    }
+  ],
+  "payment": {
+    "type": "COD",
+    "date": "2021-12-07"
+  }
+},{
+  "_id": {
+    "$oid": "61dffce640f5a3a28cb90e2c"
+  },
+  "userId": "61dff1a240f5a3a28cb90e13",
+  "orderStatus": "Completed",
+  "amount": 1170,
+  "discount": 0,
+  "cartItems": [
+    {
+      "productId": "61dff3bf40f5a3a28cb90e1a",
+      "quantity": 1
+    }
+  ],
+  "shippingAddress": {
+    "street": "ram nagar",
+    "city": "mumbai",
+    "country": "india",
+    "postCode": "414034"
+  },
+  "payment": {
+    "type": "UPI",
+    "date": "2021-12-07"
+  }
+},{
+  "_id": {
+    "$oid": "61dffd8440f5a3a28cb90e2d"
+  },
+  "userId": "61dff1fb40f5a3a28cb90e14",
+  "orderStatus": "Completed",
+  "amount": 13860,
+  "discount": 0,
+  "cartItems": [
+    {
+      "productId": "61dff3bf40f5a3a28cb90e1a",
+      "quantity": 1
+    },
+    {
+      "productId": "61dff51440f5a3a28cb90e1b",
+      "quantity": 1
+    },
+    {
+      "productId": "61dff56440f5a3a28cb90e1c",
+      "quantity": 1
+    },
+    {
+      "productId": "61dff5c040f5a3a28cb90e1d",
+      "quantity": 1
+    },
+    {
+      "productId": "61dff63240f5a3a28cb90e1e",
+      "quantity": 1
+    },
+    {
+      "productId": "61dff7bf40f5a3a28cb90e1f",
+      "quantity": 1
+    }
+  ],
+  "shippingAddress": {
+    "street": "police colony",
+    "city": "patna",
+    "country": "india",
+    "postCode": "411073"
+  },
+  "payment": {
+    "type": "CC",
+    "date": "2021-11-07"
+  }
+},{
+  "_id": {
+    "$oid": "61dffef140f5a3a28cb90e30"
+  },
+  "userId": "61dff26040f5a3a28cb90e15",
+  "orderStatus": "Completed",
+  "amount": 630,
+  "discount": 0,
+  "cartItems": [
+    {
+      "productId": "61dff63240f5a3a28cb90e1e",
+      "quantity": 1
+    },
+    {
+      "productId": "61dff5c040f5a3a28cb90e1d",
+      "quantity": 1
+    }
+  ],
+  "shippingAddress": {
+    "street": "TIT Road",
+    "city": "Gorakhpur",
+    "country": "india",
+    "postCode": "411003"
+  },
+  "payment": {
+    "type": "COD",
+    "date": "2021-12-09"
+  }
+},{
+  "_id": {
+    "$oid": "61dfff6f40f5a3a28cb90e31"
+  },
+  "userId": "61dff2bc40f5a3a28cb90e16",
+  "orderStatus": "Completed",
+  "amount": 8000,
+  "discount": 0,
+  "cartItems": [
+    {
+      "productId": "61dff56440f5a3a28cb90e1c",
+      "quantity": 1
+    },
+    {
+      "productId": "61dff3bf40f5a3a28cb90e1a",
+      "quantity": 1
+    }
+  ],
+  "shippingAddress": {
+    "street": "University Road",
+    "city": "pune",
+    "country": "india",
+    "postCode": "411007"
+  },
+  "payment": {
+    "type": "DC",
+    "date": "2022-01-02"
+  }
+},{
+  "_id": {
+    "$oid": "61e0000b40f5a3a28cb90e32"
+  },
+  "userId": "61dff30940f5a3a28cb90e17",
+  "orderStatus": "Completed",
+  "amount": 720,
+  "discount": 0,
+  "cartItems": [
+    {
+      "productId": "61dff7bf40f5a3a28cb90e1f",
+      "quantity": 2
+    }
+  ],
+  "shippingAddress": {
+    "street": "karvenagar",
+    "city": "mumbai",
+    "country": "india",
+    "postCode": "412003"
+  },
+  "payment": {
+    "type": "COD",
+    "date": "2022-01-07"
+  }
+}]

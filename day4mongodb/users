@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "61dff03c83c2aa89cf5398c3"
+  },
+  "firstName": "Aniket",
+  "lastName": "Lavand",
+  "email": "lavand.aniket@gmail.com",
+  "password": "212123",
+  "phone": "7020542824",
+  "address": {
+    "street": "ganraj colony",
+    "city": "pune",
+    "country": "india",
+    "postCode": "411033"
+  }
+},{
+  "_id": {
+    "$oid": "61dff1a240f5a3a28cb90e13"
+  },
+  "firstName": "Siddharth",
+  "lastName": "Hemnani",
+  "email": "siddhem@gmail.com",
+  "password": "22fds123",
+  "phone": "7020222824",
+  "address": {
+    "street": "ram nagar",
+    "city": "mumbai",
+    "country": "india",
+    "postCode": "414034"
+  }
+},{
+  "_id": {
+    "$oid": "61dff1fb40f5a3a28cb90e14"
+  },
+  "firstName": "Rupali",
+  "lastName": "Pandit",
+  "email": "rups44@gmail.com",
+  "password": "2cf12123",
+  "phone": "7020544424",
+  "address": {
+    "street": "police colony",
+    "city": "patna",
+    "country": "india",
+    "postCode": "411073"
+  }
+},{
+  "_id": {
+    "$oid": "61dff26040f5a3a28cb90e15"
+  },
+  "firstName": "Shambhu",
+  "lastName": "Gupta",
+  "email": "shamz12@gmail.com",
+  "password": "2121sda23",
+  "phone": "7110541814",
+  "address": {
+    "street": "TIT Road",
+    "city": "Gorakhpur",
+    "country": "india",
+    "postCode": "411003"
+  }
+},{
+  "_id": {
+    "$oid": "61dff2bc40f5a3a28cb90e16"
+  },
+  "firstName": "Mansi",
+  "lastName": "Sharma",
+  "email": "mansisharma@gmail.com",
+  "password": "2adsg1vs2123",
+  "phone": "1237654876",
+  "address": {
+    "street": "University Road",
+    "city": "pune",
+    "country": "india",
+    "postCode": "411007"
+  }
+},{
+  "_id": {
+    "$oid": "61dff30940f5a3a28cb90e17"
+  },
+  "firstName": "Swayam",
+  "lastName": "Sharma",
+  "email": "sss@gmail.com",
+  "password": "212naae1t23",
+  "phone": "9074739716",
+  "address": {
+    "street": "karvenagar",
+    "city": "mumbai",
+    "country": "india",
+    "postCode": "412003"
+  }
+}]

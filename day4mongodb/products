@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "61dff3bf40f5a3a28cb90e1a"
+  },
+  "name": "Toothsi Electro",
+  "regularPrice": 2499,
+  "discountPrice": 1170,
+  "quantity": 4,
+  "description": "Electric Toothbrush"
+},{
+  "_id": {
+    "$oid": "61dff51440f5a3a28cb90e1b"
+  },
+  "name": "Toothsi Spark Teeth Whitening Kit",
+  "regularPrice": 11999,
+  "discountPrice": 5400,
+  "quantity": 4,
+  "description": "Professional treatment at home"
+},{
+  "_id": {
+    "$oid": "61dff56440f5a3a28cb90e1c"
+  },
+  "name": "Trial Aligners",
+  "regularPrice": 12999,
+  "discountPrice": 6300,
+  "quantity": 4,
+  "description": "Try it Before you buy it!"
+},{
+  "_id": {
+    "$oid": "61dff5c040f5a3a28cb90e1d"
+  },
+  "name": "Foamy Cleaner",
+  "regularPrice": 749,
+  "discountPrice": 450,
+  "quantity": 4,
+  "description": "Aligner Cleaning Foam"
+},{
+  "_id": {
+    "$oid": "61dff63240f5a3a28cb90e1e"
+  },
+  "name": "Dry Box",
+  "regularPrice": 250,
+  "discountPrice": 180,
+  "quantity": 4,
+  "description": "Safe Case For Aligners"
+},{
+  "_id": {
+    "$oid": "61dff7bf40f5a3a28cb90e1f"
+  },
+  "name": "Flavoured Chewies",
+  "regularPrice": 699,
+  "discountPrice": 360,
+  "quantity": 4,
+  "description": "To straighten teeth faster"
+}]
