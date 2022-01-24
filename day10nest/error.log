@@ -1,0 +1,70 @@
+Response Code: 400 - Method: POST - URL: /string
+
+
+      {"statusCode":400,"error":"Bad Request","path":"/string","method":"POST","timeStamp":"2022-01-24T03:29:39.523Z"}
+
+
+      BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/ampa/Desktop/nest9/node_modules/@nestjs/common/pipes/validation.pipe.js:89:20)
+    at ValidationPipe.transform (/home/ampa/Desktop/nest9/node_modules/@nestjs/common/pipes/validation.pipe.js:65:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at resolveParamValue (/home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+Response Code: 400 - Method: POST - URL: /string
+
+
+      {"statusCode":400,"error":"Bad Request","path":"/string","method":"POST","timeStamp":"2022-01-24T03:31:44.682Z"}
+
+
+      BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/ampa/Desktop/nest9/node_modules/@nestjs/common/pipes/validation.pipe.js:89:20)
+    at ValidationPipe.transform (/home/ampa/Desktop/nest9/node_modules/@nestjs/common/pipes/validation.pipe.js:65:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at resolveParamValue (/home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+Response Code: 404 - Method: GET - URL: /sv
+
+
+      {"statusCode":404,"error":"Not Found","path":"/sv","method":"GET","timeStamp":"2022-01-24T03:32:05.681Z"}
+
+
+      NotFoundException: Cannot GET /sv
+    at callback (/home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/ampa/Desktop/nest9/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/ampa/Desktop/nest9/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ampa/Desktop/nest9/node_modules/express/lib/router/index.js:323:13)
+    at /home/ampa/Desktop/nest9/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ampa/Desktop/nest9/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/ampa/Desktop/nest9/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/ampa/Desktop/nest9/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/home/ampa/Desktop/nest9/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ampa/Desktop/nest9/node_modules/express/lib/router/index.js:323:13)
+
+Response Code: 404 - Method: GET - URL: /sv
+
+
+      {"statusCode":404,"error":"Not Found","path":"/sv","method":"GET","timeStamp":"2022-01-24T03:42:02.709Z"}
+
+
+      NotFoundException: Cannot GET /sv
+    at callback (/home/ampa/training/day10nest/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/ampa/training/day10nest/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/ampa/training/day10nest/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ampa/training/day10nest/node_modules/express/lib/router/index.js:323:13)
+    at /home/ampa/training/day10nest/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ampa/training/day10nest/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/ampa/training/day10nest/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/ampa/training/day10nest/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/home/ampa/training/day10nest/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ampa/training/day10nest/node_modules/express/lib/router/index.js:323:13)
+
