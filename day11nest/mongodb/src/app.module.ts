@@ -14,6 +14,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Connection } from 'typeorm';
 import { CartModule } from './cart/cart.module';
 import { PaymentModule } from './payment/payment.module';
+import { join } from 'path/posix';
+import { ServeStaticModule } from '@nestjs/serve-static';
 @Module({
   imports: [UsersModule, AuthModule,ProductModule,PaymentModule,
     MongooseModule.forRoot('mongodb://localhost/nest', {

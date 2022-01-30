@@ -16,7 +16,8 @@ let PaymentModule = class PaymentModule {
 };
 PaymentModule = __decorate([
     (0, common_1.Module)({
-        imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Payment', schema: payment_schema_1.PaymentSchema }])],
+        imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Payment', schema: payment_schema_1.PaymentSchema }]),
+        ],
         providers: [payment_service_1.PaymentService],
         controllers: [payment_controller_1.PaymentController]
     })
