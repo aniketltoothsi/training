@@ -15,13 +15,17 @@ export class cartProduct{
     constructor(private readonly productService: Product1Service) {}
 
 
-    //@UseGuards(AuthenticatedGuard)
+    @UseGuards(AuthenticatedGuard)
     @Get('/')
     async getProducts(@Res() res, @Param('cartID') cartID) {
         const products = await this.productService.showByCart(cartID);
         if (!products) throw new NotFoundException('Cart does not exist!');
         return res.status(HttpStatus.OK).json(products);
     }
+
+   
+    
+
 }
 
 

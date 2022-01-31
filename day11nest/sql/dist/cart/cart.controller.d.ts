@@ -5,4 +5,5 @@ export declare class CartController {
     cartpage(body: any): any;
     addProduct(req: any, res: any): Promise<void>;
     createCart(body: any): any;
+    removeProduct(req: any, res: any): Promise<void>;
 }

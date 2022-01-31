@@ -16,7 +16,6 @@ const app_service_1 = require("./app.service");
 const users_module_1 = require("./users/users.module");
 const auth_service_1 = require("./auth/auth.service");
 const auth_module_1 = require("./auth/auth.module");
-const mongoose_1 = require("@nestjs/mongoose");
 const core_1 = require("@nestjs/core");
 const roles_guard_1 = require("./users/roles.guard");
 const typeorm_1 = require("@nestjs/typeorm");
@@ -36,9 +35,6 @@ let AppModule = class AppModule {
 AppModule = __decorate([
     (0, common_1.Module)({
         imports: [users_module_1.UsersModule, auth_module_1.AuthModule, product1_module_1.Product1Module,
-            mongoose_1.MongooseModule.forRoot('mongodb://localhost/nest', {
-                useNewUrlParser: true
-            }),
             typeorm_1.TypeOrmModule.forRoot({
                 type: 'mysql',
                 host: 'localhost',

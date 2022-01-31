@@ -52,6 +52,20 @@ let CartController = class CartController {
         const newCart = this.cartService.createOne(body);
         return { msg: `${newCart} created` };
     }
+    async removeProduct(req, res) {
+        const { cartId, productId } = req.body;
+        const cart = await (0, typeorm_1.getRepository)(Cart_1.Cart).findOne({
+            id: cartId,
+        });
+        if (!cart) {
+            throw new Error('Cart not found');
+        }
+        const product = new Product_1.Product();
+        product.id = productId;
+        product.cart = null;
+        await (0, typeorm_1.getRepository)(Product_1.Product).save(product);
+        res.status(201).send('product removed from cart successfully');
+    }
 };
 __decorate([
     (0, common_1.Post)('/page'),
@@ -77,6 +91,14 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Object)
 ], CartController.prototype, "createCart", null);
+__decorate([
+    (0, common_1.Post)('/removeProduct'),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Res)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", Promise)
+], CartController.prototype, "removeProduct", null);
 CartController = __decorate([
     (0, common_1.Controller)('cart'),
     __metadata("design:paramtypes", [cart_service_1.CartService])

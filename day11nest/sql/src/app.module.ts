@@ -20,9 +20,7 @@ import { Cart } from './cart/entities/Cart';
 
 @Module({
   imports: [UsersModule, AuthModule,Product1Module,
-    MongooseModule.forRoot('mongodb://localhost/nest', {
-      useNewUrlParser: true
-    }),
+  
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
